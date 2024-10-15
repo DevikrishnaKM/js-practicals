@@ -45,4 +45,4 @@ function flipNegative(arr){
 let mixedArray = [12, '-3', -5, 'hello', 42, -100, '100'];
 console.log(flipNegative(mixedArray));
 
-4)
+// 4)
