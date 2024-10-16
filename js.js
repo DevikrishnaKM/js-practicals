@@ -45,4 +45,18 @@ function flipNegative(arr){
 let mixedArray = [12, '-3', -5, 'hello', 42, -100, '100'];
 console.log(flipNegative(mixedArray));
 
-// 4)
+// 4)counter
+
+
+let seconds=10
+
+function tick() {
+        if (seconds > 0) {
+            console.log(seconds);
+            seconds--;
+            setTimeout(tick, 1000); // Call `tick` every 1 second
+        } else {
+            console.log("Time's up!");
+        }
+    }
+    tick();
